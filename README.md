@@ -46,9 +46,16 @@ This repository contains the source code, datasets, and experimental results for
 1.  Navigate to the `Denoising/` directory.
 2.  **Dependencies:** Ensure you have Python 3.9+ and the required libraries installed (`numpy`, `opencv-python`, `torch`, `matplotlib`, `scikit-learn`, `scikit-image`).
 3.  Open and run the following notebooks:
-    * **Full Benchmark:** Run `Denoising.ipynb` to evaluate all three methods (Wavelet, SVR, DnCNN) and calculate PSNR/SSIM metrics.
-    * **Individual Demos:** Run `dncnn.ipynb`, `denoising_svr.ipynb`, or `wavelet_bicycle.ipynb` to test specific methods.
-    * **Generate Figures:** Run `figurePSNR.ipynb` to create the summary plots used in the report.
+4.  Run the following notebooks to reproduce the results:
+     * **Classical Methods:** Run ```denoiseing. ipynb`.
+    * **SVR:** Run`denoiseing_SVR.ipynb.
+    * **Deep Learning (DnCNN):** Run `dncnn.ipynb`.
+
+5.  **Real-World Test:**
+    * **Classical Methods:** Run ```wavelet_bicycle. ipynb`.
+    * **SVR:** Run`bicycle_svr.ipynb.
+    * **Deep Learning (DnCNN):** Run `dncnn_bicycle.ipynb`.
+6.* **Generate Figures:** Run `figurePSNR.ipynb` to create the summary plots used in the report.
 
 ---
 
