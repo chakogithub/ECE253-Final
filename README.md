@@ -6,6 +6,7 @@
     * **DCP Experiments:** Run `dcp_outdoor.ipynb` (for RESIDE outdoor photos), `dcp_indoor.ipynb` (for RESIDE indoor photos) and `dcp_ohaze.ipynb` (for O-HAZE).
     * **AOD-Net Experiments:** Run `aod.ipynb` (for RESIDE) and `aod_ohaze.ipynb` (for O-HAZE).
 3.  The notebooks will generate visual comparisons and print quantitative metrics (PSNR, SSIM, NIQE, etc.).
+    * **Our own photos:** Run `myhaze.ipynb`.
 
 ---
 
